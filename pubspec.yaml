@@ -1,0 +1,51 @@
+name: i_learn
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  iconsax: ^0.0.8
+  animated_splash_screen: ^1.3.0
+  fluttertoast: ^8.2.4
+  flutter_launcher_icons: ^0.13.1
+  lottie:
+  shared_preferences: ^2.2.2
+  http:
+  flutter_bloc: ^8.1.3
+  url_launcher:
+
+  cupertino_icons: ^1.0.2
+  syncfusion_flutter_pdfviewer: ^24.2.8
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "Image/sm.jpg"
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - Image/
+    - animations/
+
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: fonts/BebasNeue-Regular.ttf
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+
+
